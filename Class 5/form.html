@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <label for="name"><strong>Name</strong></label>
+        <input type="text" id="name" required minlength="5">
+
+        <br/>
+
+        <label for="name"><i>Password:</i></label>
+        <input type="password" id="Password" required minlength="5">  
+
+        <br/>
+
+        <label for="name">
+            <u>Email</u>
+        </label>
+        <input type="email" id="Email" placeholder="ertanmuslic@gmail.com" required>
+
+        <br/>
+
+        <label for="name">Date</label>
+        <input type="date" id="Date">
+
+        <br/>
+
+        <label for="name">Datetime</label>          <!--Doesnt worklike it is supposed to-->
+        <input type="datetime" id="datetime">
+
+        <br/>
+
+        <label for="name">Datetime-local</label>
+        <input type="datetime-local" id="datetime-local">
+
+        <br/>
+
+        <label for="name">Number</label>
+        <input type="number" id="number" min="5" max="20">
+
+        <br/>
+
+        <label for="url">My Website</label>
+        <input type="url" id="url">
+
+        <input type="submit" value="Save">
+        
+        <br/>
+
+        <label for="checkbox">Gender</label>
+        <input type="checkbox" id="checkbox" name="check" checked>
+        <input type="checkbox" id="checkbox" name="check">
+        <input type="radio" id="checkbox" name="check" checked>
+        <input type="radio" id="checkbox" name="check">
+
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </form>
+
+    <br>
+    <select name="select" id="select">
+        <option value="a">A</option>
+        <option value="b">B</option>
+        <option value="c">C</option>
+        <option value="d">D</option>
+
+    </select>
+</body>
+</html>
