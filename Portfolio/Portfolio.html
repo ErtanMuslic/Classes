@@ -1,43 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+  <style>
+    #navbar{
+      display: inline-block;
+      width: 600px;
+      height: 50px;
+    }
+    a{
+      text-decoration:none;
+      margin-left: 10px; 
+    }
+
+    .Sections{
+      width: 600px;
+      height: 250px; 
+    }
+
+  </style>
   <body>
     <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about-me">About me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#Email">Email Me</a></li>
-      </ul>
+      <div id="navbar">
+        <ul>
+          <a href="#home"><strong>Home</strong></a>
+          
+          <a href="#about-me"><strong>About Me</strong></a>
+          
+          <a href="#projects"><strong>Projects</strong></a>
+          
+          <a href="#contact"><strong>Contact</strong></a>
+          
+          <a href="#Email"><strong>Email Me</strong></a></ul>
+    </div>
+
     </nav>
-    <section id="home">
+
+    <section id="home" class="Sections">
+
       <img
         src="https://i.pinimg.com/474x/b1/4f/f3/b14ff37dadca731a0b4ae5d4f9be2673--profile-pictures-dose.jpg"
         alt=""
         width="200px"
         height="200px"
       />
-
       <h1>This is my portfolio</h1>
-      <iframe width="100%" height="600px"></iframe>
+
     </section>
 
-    <section id="about-me">
+    <section id="about-me" class="Sections">
+
       <p>Hello I am Ertan Muslic</p>
       <p>I am a frontend developer with more than one year of experience!</p>
-      <iframe width="100%" height="600px"></iframe>
+      
     </section>
 
-    <section id="projects">
+    <section id="projects" class="Sections">
+
       <h2>These are the projects I did</h2>
       <p>Project 1</p>
       <p>Project 2</p>
       <p>Project 3</p>
       <p>Project 4</p>
-      <iframe width="100%" height="600px"></iframe>
+      
     </section>
 
-    <section id="contact">
+    <section id="contact" class="Sections">
+
       <h2>Contact me on:</h2>
       <a href="https://github.com/ErtanMuslic" target="_Blank">
         <img
@@ -47,10 +74,11 @@
           height="30px"
         />
       </a>
-      <iframe width="100%" height="600px"></iframe>
+      
     </section>
 
-    <section id="Email">
+    <section id="Email" class="Sections">
+
       <h2>Send me Email</h2>
       <form>
       <label for="name">Name:</label>
@@ -63,8 +91,9 @@
         <br/>
         <input type="submit" value="Save">
       </form>
+      
     </section>
 
-
   </body>
+
 </html>
