@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <style>
+    body{
+      font-size: 20px;
+    }
     #navbar{
       display: inline-block;
       width: 600px;
-      height: 50px;
+      height: 100px;
     }
     a{
       text-decoration:none;
-      margin-left: 10px; 
+      margin-left: 10px;
+      font-size: 24px; 
+    }
+
+    a:hover{
+      cursor:pointer; 
+      color: blueviolet;
     }
 
     .Sections{
@@ -16,31 +25,47 @@
       height: 250px; 
     }
 
+    li{
+      
+      display: inline-block;
+    }
+    #logo{
+      display: inline-block;
+      height: 40px;
+      width: 40px;
+    }
+    #logocon{
+      padding:10px;
+      background-color: grey;
+    }
+
   </style>
   <body>
-    <nav>
-      <div id="navbar">
-        <ul>
-          <a href="#home"><strong>Home</strong></a>
+    <nav id="navbar">
+        <ul id="logocon">
+
+          <img src="https://static.vecteezy.com/system/resources/previews/000/604/630/non_2x/letter-s-logo-technology-logo-design-concept-template-vector.jpg" alt="Logo"
+          id="logo">
+
+          <li><a href="#home"><strong>Home</strong></a></li>
           
-          <a href="#about-me"><strong>About Me</strong></a>
+          <li><a href="#about-me"><strong>About Me</strong></a></li>
           
-          <a href="#projects"><strong>Projects</strong></a>
+          <li><a href="#projects"><strong>Projects</strong></a></li>
           
-          <a href="#contact"><strong>Contact</strong></a>
+          <li><a href="#contact"><strong>Contact</strong></a></li>
           
-          <a href="#Email"><strong>Email Me</strong></a></ul>
-    </div>
+          <li><a href="#Email"><strong>Email Me</strong></a></li>
+          </ul>
 
     </nav>
 
     <section id="home" class="Sections">
-
       <img
         src="https://i.pinimg.com/474x/b1/4f/f3/b14ff37dadca731a0b4ae5d4f9be2673--profile-pictures-dose.jpg"
         alt=""
-        width="200px"
-        height="200px"
+        width="150px"
+        height="150px"
       />
       <h1>This is my portfolio</h1>
 
