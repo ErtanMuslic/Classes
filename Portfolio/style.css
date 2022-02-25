@@ -1,0 +1,89 @@
+    *{
+        margin: 0;
+    }
+
+    body{
+      font-size: 20px;
+    }
+
+     /* NAVBAR */
+    #navbar{
+      display: block;
+      width: 100%;
+      height: 70px;
+      background-color: rgb(212, 212, 212);
+    }
+
+    #navbar a{
+        color: black;
+      text-decoration:none;
+      font-size: 24px; 
+    }
+
+    #navbar a:hover{
+      cursor:pointer; 
+      color: royalblue;
+    }
+    
+    #navbar ul li, ul{
+      
+      display: inline-block;
+      padding-left: 10px;
+    }
+
+    #logo{
+      height: 40px;
+      width: 40px;
+      vertical-align: middle;
+    }
+
+    #logocon{
+        margin: 15px;
+      display: inline-block;
+    }
+
+    .Sections{
+        height: 250px;
+    }
+
+     /*HERO-SECTION*/
+    .text{
+      display: inline-block;
+      margin: 5px;
+      width: 600px;
+    }
+
+    #pic{
+        float: right;
+    }
+
+
+    button{
+        height: 30px;
+        width: 80px;
+        margin: 5px;
+        text-decoration: none;
+        border: 0;
+        border-radius: 5px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    #butt1{
+        background-color: royalblue;
+        color: white;
+    }
+
+    #butt2{
+        background-color: white;
+        color: black;
+    }
+    .text h1{
+        padding-bottom: 10px;
+    }
+    .text a{
+        text-decoration: none;
+    }
+
+    #butt1:hover, #butt2:hover{
+        border: 1px solid black;
+    }

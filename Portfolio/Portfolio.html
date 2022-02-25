@@ -1,54 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <style>
-    body{
-      font-size: 20px;
-    }
-    #navbar{
-      display: inline-block;
-      width: 600px;
-      height: 100px;
-    }
-    a{
-      text-decoration:none;
-      margin-left: 10px;
-      font-size: 24px; 
-    }
-
-    a:hover{
-      cursor:pointer; 
-      color: blueviolet;
-    }
-
-    .Sections{
-      height: 250px;
-    }
-
-    li{
-      
-      display: inline-block;
-    }
-    #logo{
-      display: inline-block;
-      height: 40px;
-      width: 40px;
-    }
-    #logocon{
-      padding:10px;
-      background-color: grey;
-    }
-
-    .text{
-      display: inline-block;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
   <body>
     <nav id="navbar">
-        <ul id="logocon">
-
-          <img src="https://static.vecteezy.com/system/resources/previews/000/604/630/non_2x/letter-s-logo-technology-logo-design-concept-template-vector.jpg" alt="Logo"
-          id="logo">
-
+      <div id="logocon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/BMW_logo_%28gray%29.svg/2048px-BMW_logo_%28gray%29.svg.png" alt="Logo"
+        id="logo">
+        <ul>
           <li><a href="#home"><strong>Home</strong></a></li>
           
           <li><a href="#about-me"><strong>About Me</strong></a></li>
@@ -59,27 +20,40 @@
           
           <li><a href="#Email"><strong>Email Me</strong></a></li>
           </ul>
-
+          </div>
     </nav>
 
     <section id="home" class="Sections">
+      <div class="text">
+        <h1>This is my portfolio</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Fusce ipsum ex, molestie vel placerat non, ultrices at velit.
+          Suspendisse nec justo aliquet, pretium odio a, pellentesque dui.
+          Aliquam luctus neque at massa blandit tristique.
+          Nunc commodo tortor sed nisi aliquam sollicitudin.
+        </p>
+        <a href="" target="blank">
+        <button id="butt1" type="button">Button</button>
+        </a>
+        <a href="" target="blank">
+          <button id="butt2" type="button">Button</button>
+        </a>
+        </div>
+
+      <div id="pic">
       <img
         src="https://i.pinimg.com/474x/b1/4f/f3/b14ff37dadca731a0b4ae5d4f9be2673--profile-pictures-dose.jpg"
         alt=""
-        width="150px"
-        height="150px"
-        style="float: right;"
-      />
-      <div class="text">
-      <h1>This is my portfolio</h1>
+        width="250px"
+        height="200px" />
       </div>
     </section>
 
     <section id="about-me" class="Sections">
 
       <p>Hello I am Ertan Muslic</p>
-      <p>I am a frontend developer with more than one year of experience!</p>
-      
+      <p>I am student of IT.</p>
+      <p>Currently learning HTML,even while i'am writing this.</p>      
     </section>
 
     <section id="projects" class="Sections">
