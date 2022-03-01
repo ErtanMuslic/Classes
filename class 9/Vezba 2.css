@@ -1,0 +1,43 @@
+p{
+    font-weight: bold;
+}
+
+#container{
+    width: 20%;
+    height: 150px;
+    border: 5px solid black;
+    position:absolute;
+    background-color: white;
+}
+
+#container1{
+    width: 20%;
+    height: 150px;
+    border: 5px solid black;
+    position:absolute;
+    left: 250px;
+    top: 130px;
+    background-color: white;
+
+}
+
+#container2{
+    width: 50%;
+    height: 150px;
+    border: 5px solid black;
+    position:absolute;
+    top: 250px;
+    background-color: white;
+
+}
+
+#container3{
+    width: 10%;
+    height: 350px;
+    border: 5px solid black;
+    position:absolute;
+    left: 50%;
+    background-color: white;
+
+}
+
