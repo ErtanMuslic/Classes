@@ -3,6 +3,7 @@
     }
 
     body{
+      background-image: linear-gradient(to bottom,#fdfcfb, #e2d1c3);
       font-size: 20px;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
@@ -11,15 +12,22 @@
       font-size: 24px;
       font-weight: 300;
       line-height:25px;
-      color: darkblue;
+      color: black;
     }
     h1{
       font-size: 30px;
       font-weight: 400;
       font-family: sans-serif;
+      color: black;
     }
     h1:hover{
-      color: magenta;
+      background-image: linear-gradient(to right,#81dabe,#092c50);  
+      background-size: 100%;
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
     }
     h2{
       font-size: 27px;
@@ -30,17 +38,13 @@
       color: rosybrown;
       text-shadow: 5px 5px 5px black;
     }
-    #about-me p{
-      color: darkgreen;
-      font-size: 15px;
-    }
 
      /* NAVBAR */
     #navbar{
       display: block;
       width: 100%;
       height: 70px;
-      background-color: rgb(212, 212, 212);
+      background-color: rgb(219, 219, 219);
     }
 
     #navbar a{
@@ -72,15 +76,6 @@
       display: inline-block;
     }
 
-    #projects h2{
-      text-align: center;
-    }
-
-    #projects div{
-      margin: 20px;
-      justify-content: space-between;
-    }
-
      /*HERO-SECTION*/
     .text{
       display: inline-block;
@@ -89,8 +84,17 @@
     }
 
     #pic{
-        float: right;
+      position: relative;
+      top: 15px;
+      right: 5%;
+      float: right;
     }
+
+    #home{
+      border-top: 1px solid grey;
+      border-bottom: 1px solid grey;
+    }
+
 
 
     button{
@@ -121,4 +125,36 @@
 
     #butt1:hover, #butt2:hover{
         border: 1px solid black;
+    }
+
+
+    #about-me{
+      height: 200px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      text-align: center;
+      border-bottom: 1px solid black;
+    }
+
+    #about-me p{
+      line-height: 40px;
+      font-size: 30px;
+      font-weight: bold;
+      background-image: linear-gradient(45deg, #1927e6, #cf45ad,yellow);      background-size: 100%;
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+    }
+
+
+
+    #projects h2{
+      text-align: center;
+    }
+
+    #projects div{
+      margin: 20px;
+      justify-content: space-between;
     }
