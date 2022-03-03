@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 200vh;
+}
+#nav{
+    width: 20%;
+    height: 150px;
+    display: inline;
+    float: left;
+    margin: 20px;
+}
+#navb{
+    width: 20%;
+    height: 150px;
+    display: inline;
+    float:right;
+    margin: 20px;
+}
