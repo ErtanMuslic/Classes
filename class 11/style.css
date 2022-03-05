@@ -1,0 +1,58 @@
+#container{
+    position: relative;
+    margin: 100px ;
+    height: 100vh;
+}
+
+#text{
+    position: relative;
+    top: 50px;
+    width: 55%;
+    height: 50vh;
+    float: left;
+    text-align: left;
+}
+
+#form{
+    width: 30%;
+    height: 30vh;
+    float: right;
+    border-radius: 10px;
+    text-align: left;
+    padding:10px;
+    background-color:rgb(226, 215, 215);
+}
+#name{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 90%;
+}
+
+#Email{
+    margin-top: 5px;
+    text-decoration: none;
+    width: 90%;
+}
+
+#button{
+    margin-top: 20px;
+    width: 93%;
+    height: 25px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+}
+
+@media screen and (min-width: 600px){
+}
+
+@media screen and (max-width: 600px) {
+    #text{
+        width: 100px;
+        float: none;
+    }
+    #form{
+        float: none;
+    }
+}
