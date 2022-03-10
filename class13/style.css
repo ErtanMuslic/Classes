@@ -1,0 +1,17 @@
+#hero{
+    height: 600px;
+    background-color: crimson;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;  /*po x osi*/
+    align-items: flex-start;      /*po y osi*/
+    flex-wrap: wrap;
+}
+
+
+.children{
+    width: 25%;
+    margin: 20px;
+    height: 100px;
+    background-color: blueviolet;
+}
