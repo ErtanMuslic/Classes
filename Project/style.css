@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+#hero{
+    padding-top: 10%;
+    background:url("https://bootstrapmade.com/demo/templates/Knight/assets/img/hero-bg.png");
+    height: 80vh;
+}
+
+#hero-pic{
+    display: flex;
+    justify-content: center;
+}
+
+#pic:hover{
+    cursor: pointer;
+}
+
+#hero-text{
+    text-align: center;
+    color: white;
+}
+
+#hero-text h1{
+    font-weight: 500;
+    font-size: 55px;
+    margin-bottom: 2%;
+}
+#hero-text p{
+    font-size: 15px;
+    margin-top: 0;
+    color: silver;
+}
+
+#hero-button{
+    margin-top: 1%;
+    background-color: lightgreen;
+    border: 0;
+    border-radius:5px;
+    width: 15%;
+    height: 9vh;
+    color: white;
+    font-size: 20px;
+}
+
+#hero-button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: lightgreen;
+}
+
+#navbar{
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+}
+
+#navbar ul a{
+    margin-right: 2%;
+}
