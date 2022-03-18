@@ -243,15 +243,33 @@ body{
     padding-left: 2%;
     font-family: sans-serif;
     }
-
-.fields h4:hover{
-    color: #7cc576;    
+    
+#text2 h4:hover{
     transition: 0.5s;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
 }
 
-.fields h4:focus{
-    color: #7cc576;
-    background-color: #555555;
+#slike{
+    width: 35%;
 }
+
+.slika1{
+    position: absolute;
+    transition: 0.5s;
+}
+
+
+#part3{
+    margin-top: 15%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+#questions{
+    width: 10%;
+}
+
+#text3{
+    padding: 5%;
+}
+
