@@ -3,6 +3,7 @@ body{
     padding: 0;
 }
 
+/* HOME */
 #hero{
     padding-top: 10%;
     background:url("https://bootstrapmade.com/demo/templates/Knight/assets/img/hero-bg.png");
@@ -214,4 +215,43 @@ body{
 #services-left p{
     color: #959595;
     font-size: 15px;
+}
+
+#part2{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#text2{
+    width: 40%;
+}
+
+#text2 h4{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: 20px;
+    text-align: start;
+    padding-left: 2%;
+    padding-top: 2%;
+    font-family: "Montserrat",sans-serif;
+    color: #151515;
+}
+
+#text2 p{
+    font-size: 17px;
+    margin-top: 0;
+    padding-left: 2%;
+    font-family: sans-serif;
+    }
+
+.fields h4:hover{
+    color: #7cc576;    
+    transition: 0.5s;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.fields h4:focus{
+    color: #7cc576;
+    background-color: #555555;
 }
