@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <input type="input 1" on>
+    <!-- <p id="test" class="test2" onclick="clickMe()">This is a script</p> -->
+    <!-- <div id="addme"> -->
+    <button onclick="">Click Me</button>
+    <p id="count">0</p>
+
+    </div>
+    <script>
+        function clickMe(params){
+            // var element=document.querySelector('body');
+            // var text = document.createTextNode("This is text");
+            // var chile = document.createElement("p");
+            // child.textContent = "this is text";
+            // element.appendChild(child);
+            // element.textContent = "nesto drugo"
+            // element.style.color="yellow";
+            // element.classList.add('yellow');
+            // element.remove();
+            // console.log(element);
+            var div1=document.getElementById("addme");
+            var text = document.createElement("p");
+            text.textContent="here!";
+            div1.appendChild(text);
+
+            var count = 0;
+            function counter(){
+                var p = document.getElementById("count");
+                count = count + 1;
+
+                p.textContent=count;
+            }
+        }
+    </script>
+</body>
+</html>
