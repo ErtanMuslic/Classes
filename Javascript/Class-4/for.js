@@ -96,15 +96,26 @@
 // Napraviti da se prikazuju razliciti elementi
 
 
-// var array1 = ["a","b","c","d"];
-// var array2 = ["a","b","f"];
-// var array3=array1.concat(array2);
+var array1 = ["a","b","c","d"];
+var array2 = ["a","b","f"];
+var array3=[];
+var array4=[];
 
 
-// for(var i=0;i<array1.length;i++){
-//     for(var j=0;j<array2.length;j++)
-//         if(array1[i] == array2[j]){
-//         }
-// }
-// console.log(array3);
+for(var i=0;i<array1.length;i++){
+    for(var j=0;j<array2.length;j++){
+        var test=false;
+        if(array1[i] === array2[j]){
+            array3.push(array1[i]);
+        }
+    }
+}
+console.log(array3);
 
+for(var i = 0;i<array1.length;i++){
+    for(var j =0;j<array2.length;j++){
+        if(array3[i] !== array1[j]){
+            array4.push(array1[j]);
+        }
+    }
+}
