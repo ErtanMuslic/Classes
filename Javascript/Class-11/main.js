@@ -1,4 +1,4 @@
-import { sum } from "./index";
+import * as clc from "./index.js";
 
 
-console.log(sum(1,2));
+console.log(clc);
