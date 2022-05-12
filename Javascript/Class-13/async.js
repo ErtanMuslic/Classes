@@ -12,5 +12,3 @@ const id = setInterval(fn, 1000);
 setTimeout(() => clearInterval(id), 5000); //Ispisuje "hi" 4 puta
 
 console.log("hi 2");
-
-
