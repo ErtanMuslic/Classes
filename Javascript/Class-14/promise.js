@@ -80,4 +80,4 @@ Promise.then(() =>{
 
 Promise.all([promise,promise]); //Array with Promises
 Promise.race([]);   //Vise asinhronih radnji i vraca samo radnju koja se prva zavrsila
-Promise.allSettled([]); //slican prvom
+Promise.allSettled([]); //slican prvom primeru
