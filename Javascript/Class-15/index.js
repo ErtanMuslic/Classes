@@ -54,7 +54,7 @@ const getQuotes = async (page, sortBy, order) =>{
 	}
 };
 
-getQuotes(5,"content").then((result) =>{
+getQuotes(185,"content","desc").then((result) =>{
 	for (let i = 0; i < result.length; i++) {
 		const element = result[i];
 		console.log(element.content + ' by: ' + element.author)
