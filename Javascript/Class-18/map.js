@@ -33,15 +33,38 @@ const array= [
 // [1,2,3].newMap(()=>{});
 // [3,"sd"].newMap(()=>{});
 
+
+
 // const newArray = array
 // .filter((value)=> value.name[0]==="S")
 // .map((value)=> value.name);
 
-const newArray2 = array.reduce((result,value,index,array) => {
-    if (value.adress.number > 25) {
-        result.push(value.adress);
-    }
-    return result;
-},[]);
+// const newArray2 = array.reduce((result,value,index,array) => {
+//     if (value.adress.number > 25) {
+//         result.push(value.adress);
+//     }
+//     return result;
+// },[]);
 
-console.log(newArray2);
+// console.log(newArray2);
+
+Array.prototype.newReduce = function(callback,initialValue){
+    let result = initialValue ? initialValue : this[0];
+    for (let i = 0; i < this.length; i++) {
+        const element = this[i];
+    if(initialValue){
+        result = callback(initialValue,this[0],i,this)
+        continue;
+    }
+    if(!initialValue && i === 0){
+        continue;
+    }
+
+        result = callback(this[0],this[1],i,this)
+}
+    return result;
+
+};
+
+const first = [1].newReduce((result,value) => result + value);
+console.log(first);
