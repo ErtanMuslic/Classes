@@ -70,15 +70,31 @@ const getQuotes = async (page = 1) => {
 //     });
 //   });
 
-  const clickable = () =>{
-    getQuotes().then((result) => {
-        result.forEach((quote) => {
-          const newCard = createCardNode(quote.author, quote.content);
-          contentDiv.appendChild(newCard);
-        });
+
+
+//   const clickable = () =>{
+//     getQuotes().then((result) => {
+//         result.forEach((quote) => {
+//           const newCard = createCardNode(quote.author, quote.content);
+//           contentDiv.appendChild(newCard);
+//         });
+//       });
+//   }
+
+
+// const dugme = document.getElementById("dugme");
+// dugme.addEventListener("click",clickable);
+
+
+
+const clickable1 = () =>{
+  contentDiv.innerHTML = '';
+  getQuotes(pageInput.value).then((result) => {
+      result.forEach((quote) => {
+        const newCard = createCardNode(quote.author, quote.content);
+        contentDiv.appendChild(newCard);
       });
-  }
-
-
-const dugme = document.getElementById("dugme");
-dugme.addEventListener("click",clickable);
+    });
+}
+const pageInput = document.getElementById("pageinput");
+dugme.addEventListener("click",clickable1);
