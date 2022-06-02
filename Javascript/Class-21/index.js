@@ -74,3 +74,15 @@
 //pending 
 //fullfiled
 //rejected
+
+
+//closure
+
+function name1() {
+    const a = 10;
+    return function name(b){
+        return a + b;
+    };
+}
+
+console.log(name1(12)(6)); //bice 18;
