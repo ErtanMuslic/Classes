@@ -1,11 +1,11 @@
-// var a=[1,,2,3,4,5,"2"];
-// var b = [1,2,3,4[1,2,3,4[1,2,3,4[1,2,3,4]]]];
+var a=[1,,2,3,4,5,"2"];
+var b = [1,2,3,4[1,2,3,4[1,2,3,4[1,2,3,4]]]];
 
-// console.log(array[4][4][4][2]);
+// console.log(b[4][4][4][2]);
 
-// var array = [[['nesto'],['nesto 3']],[['nesto 4']['nesto 5']],['nesto']];
+var array = [[['nesto'],['nesto 3']],[['nesto 4']['nesto 5']],['nesto']];
  
-// console.log(array[1][0][0]);
+console.log(array[1][0][0]);
 
 // var n = 10;
 // for(var i =0;i<navigator;i++){
@@ -96,26 +96,26 @@
 // Napraviti da se prikazuju razliciti elementi
 
 
-var array1 = ["a","b","c","d"];
-var array2 = ["a","b","f"];
-var array3=[];
-var array4=[];
+// var array1 = ["a","b","c","d"];
+// var array2 = ["a","b","f"];
+// var array3=[];
+// var array4=[];
 
 
-for(var i=0;i<array1.length;i++){
-    for(var j=0;j<array2.length;j++){
-        var test=false;
-        if(array1[i] === array2[j]){
-            array3.push(array1[i]);
-        }
-    }
-}
-console.log(array3);
+// for(var i=0;i<array1.length;i++){
+//     for(var j=0;j<array2.length;j++){
+//         var test=false;
+//         if(array1[i] === array2[j]){
+//             array3.push(array1[i]);
+//         }
+//     }
+// }
+// console.log(array3);
 
-for(var i = 0;i<array1.length;i++){
-    for(var j =0;j<array2.length;j++){
-        if(array3[i] !== array1[j]){
-            array4.push(array1[j]);
-        }
-    }
-}
+// for(var i = 0;i<array1.length;i++){
+//     for(var j =0;j<array2.length;j++){
+//         if(array3[i] !== array1[j]){
+//             array4.push(array1[j]);
+//         }
+//     }
+// }
