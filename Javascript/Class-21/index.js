@@ -85,7 +85,4 @@ function name1() {
     };
 }
 
-
 console.log(name1(12)(6)); //bice 18;
-
-
