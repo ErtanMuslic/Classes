@@ -79,6 +79,16 @@
 
 // console.log(GetHexColor('white'));
 
+
+
+
+
+
+
+
+
+
+
 console.log(a);
 
 var test = 10;

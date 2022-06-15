@@ -1,11 +1,12 @@
-var a=[1,,2,3,4,5,"2"];
-var b = [1,2,3,4[1,2,3,4[1,2,3,4[1,2,3,4]]]];
+// var a=[1,,2,3,4,5,"2"];
+// var b = [1,2,3,4,[1,2,3,4,[1,2,3,4,[1,2,3,4]]]];
 
-// console.log(b[4][4][4][2]);
+// console.log(b[4][4][4][1]);
+// console.log(a[6]);
 
-var array = [[['nesto'],['nesto 3']],[['nesto 4']['nesto 5']],['nesto']];
+// var array = [[['nesto'],['nesto 3']],[[['aj sad'],'nesto 4'],['nesto 5']],['nesto']];
  
-console.log(array[1][0][0]);
+// console.log(array[1][0][0]);
 
 // var n = 10;
 // for(var i =0;i<navigator;i++){

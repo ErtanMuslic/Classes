@@ -75,21 +75,21 @@
 
 // console.log(array1,array2);
 
-// function charsToString(...args) {
-//     let sum=''
-//     for (let index = 0; index < array.length; index++) {
-//         const element = array[index];
-//         sum+=element;
-//     }
-//     return sum;
-// }
-// conosle.log(charsToString(1,2,3,4,5,"23","23","2"));
+function charsToString(...args) {
+    let sum='';
+    for (let index = 0; index < args.length; index++) {
+        const element = args[index];
+        sum+=element;
+    }
+    return sum;
+}
+console.log(charsToString(1,2,3,4,5,"23","23","2"));
 
 
 // const sum = (...args) => {
 //     let tempSum = 0;
-//     for (let index = 0; index < array.length; index++) {
-//         const element = array[index];
+//     for (let index = 0; index < args.length; index++) {
+//         const element = args[index];
 //         tempSum+=element;      
 //     }
 //     return tempSum;
@@ -98,23 +98,23 @@
 // console.log(sum(1,2,3,4,5,6,"s"));
 
 
-const sum = (...args) => {
-    let tempSum = 0;
-    for (let index = 0; index < array.length; index++) {
-        const element = array[index];
+// const sum = (...args) => {
+//     let tempSum = 0;
+//     for (let index = 0; index < args.length; index++) {
+//         const element = args[index];
 
-    if(typeof element === "number"){
-        tempSum +=element;
+//     if(typeof (element) === "number"){
+//         tempSum +=element;
 
-    }
+//     }
 
-    if(typeof element === "string"){
-        tempSum += parseInt(element);
+//     if(typeof (element) === "string"){
+//         tempSum += parseInt(element);
 
-    }
+//     }
 
-    return tempSum;
-}
-};
+//     return tempSum;
+// }
+// };
 
-console.log(sum(1,2,3,4,5,6,"s"));
+// console.log(sum(1,2,3,4,5,6,"s"));

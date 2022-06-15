@@ -59,4 +59,11 @@ function findObject(niz, parametar, vrednostParametra){
     }
 }
 
+
+
+
+
+
+
 findObject(nizKorisnika, 'name', 'Suad');
+//nice

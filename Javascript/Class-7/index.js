@@ -52,17 +52,17 @@
 
 
 
-// function countdown(n){
-//     if(n === 1){
-//         return [1];
-//     }
-//     var array=[n,...countdown(n-1)];
+function countdown(n){
+    if(n === 1){
+        return [1];
+    }
+    var array=[n,...countdown(n-1)];
 
-//     return array;
-// }
+    return array;
+}
 
 
-// console.log(countdown(4));
+console.log(countdown(4));
 
 
 

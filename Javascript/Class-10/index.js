@@ -13,26 +13,26 @@
 // console.log(x,y);
 
 
-// class Car {
-//     constructor(type,price){
-//         this.type=type;
-//         this.price=price;
-//     }
-//     getPrice(){
-//         return this.price;
-//     }
-//     getType(){
-//         return this.type
-//     }
-//     ToString(){
-//        return JSON.stringify(this);
-//     }
-// }
+class Car {
+    constructor(type,price){
+        this.type=type;
+        this.price=price;
+    }
+    getPrice(){
+        return this.price;
+    }
+    getType(){
+        return this.type
+    }
+    ToString(){
+       return JSON.stringify(this);
+    }
+}
 
-// const car1 = new Car("BMW",20000);
+const car1 = new Car("BMW",20000);
 
-// console.log(car1);
+console.log(car1);
 
-// car1.ToString();
-// console.log(car1.ToString());
+car1.ToString();
+console.log(car1.ToString());
 
