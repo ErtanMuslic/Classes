@@ -12,7 +12,7 @@ console.log(outer(10)(20));
 
 const a = (array) => {
     return () => {
-        if(array.lenght < 0){
+        if(array.length <= 0){
             return "Array is empty";
         }
         else{

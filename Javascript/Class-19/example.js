@@ -2,9 +2,9 @@ console.log("It works");
 
 const inputs = document.querySelectorAll(".inputs");
 const div = document.querySelector("#ColorDiv");
-const red = document.getElementById("Redvalue");
-const green = document.getElementById("Greenvalue");
-const blue = document.getElementById("Bluevalue");
+const red = document.getElementById("Redvalue:");
+const green = document.getElementById("Greenvalue:");
+const blue = document.getElementById("Bluevalue:");
 
 const changeFunction = (event) =>{
     console.log(event);

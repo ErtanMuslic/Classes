@@ -5,3 +5,5 @@ const a =10;
 
 export{sum,a};
 // export default{sum};
+
+
