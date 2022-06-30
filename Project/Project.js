@@ -99,3 +99,11 @@ function slika4(){
     document.getElementById('h3').style.color='black';
     document.getElementById('h4').style.color='#7cc576';
 }
+
+
+
+
+
+
+
+
