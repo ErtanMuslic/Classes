@@ -1,0 +1,34 @@
+.card {
+    margin:2%;
+    width: 300px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.card > img{
+    margin-top: 5%;
+    width: 25%;
+    height: 10vh;
+}
+
+.title{
+    height: 10px;
+}
+
+.text{
+    text-align: center;
+    margin: 5% 10%;
+    font-weight: 600;
+}
+
+.button{
+    color: white;
+    width: 85%;
+    height:6vh;
+    border-radius: 20px;
+    background-color: black;
+}
