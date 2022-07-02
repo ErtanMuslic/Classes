@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import NewCard from './components/functional/Homework1';
+import Countdown from './components/class/Countdown';
+import FromDate from './components/class/fromdate';
+import Ping from './components/class/Ping';
+import PingF from './components/functional/PingF';
+// import NewCard from './components/functional/Homework1';
 // import App from './components/class/App';
 // import AppF from './components/functional/AppF';
 // import Card from './components/functional/card';
@@ -29,7 +33,7 @@ root.render(
       </div>
       */}
 
-      {/* HOMEWORK : */}
+      {/* HOMEWORK :
       <NewCard url="https://cdn-icons-png.flaticon.com/512/81/81609.png" 
       title ="TWITTER" 
       text="
@@ -39,7 +43,12 @@ root.render(
       eligendi nemo est neque
       reiciendis error?"
       button ="READ MORE"
-      />
+      /> */}
+
+      <Ping/>
+      <PingF/>
+      <Countdown/>
+      <FromDate/>
   </React.StrictMode>
 );
 
