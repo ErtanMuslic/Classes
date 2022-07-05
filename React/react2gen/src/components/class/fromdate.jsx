@@ -7,7 +7,7 @@ class FromDate extends React.Component{
     }
 
     calculateDateDiff(){
-       console.log(parseInt((new Date().getTime() / 1000).toFixed(0)));
+    console.log(parseInt((new Date().getTime() / 1000).toFixed(0)));
     console.log(parseInt((new Date(2022,6,1,5,23,59).getTime() / 1000).toFixed(0)))
      return  parseInt((new Date().getTime() / 1000).toFixed(0)) - parseInt((new Date(2022,6,1,5,23,59).getTime() / 1000).toFixed(0))
     }
@@ -20,6 +20,7 @@ class FromDate extends React.Component{
     }
 
     componentWillUnmount(){
+        
         clearInterval(this.intervalId);
     }
 
