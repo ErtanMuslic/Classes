@@ -20,7 +20,7 @@ class FromDate extends React.Component{
     }
 
     componentWillUnmount(){
-        
+
         clearInterval(this.intervalId);
     }
 

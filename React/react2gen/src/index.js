@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Countdown from './components/class/Countdown';
-import FromDate from './components/class/fromdate';
-import Ping from './components/class/Ping';
-import PingF from './components/functional/PingF';
+// import Countdown from './components/class/Countdown';
+// import Counter from './components/class/Counter';
+import CounterF from './components/functional/CounterF';
+import RandomColor from './components/functional/RandomColor';
+// import FromDate from './components/class/fromdate';
+// import Ping from './components/class/Ping';
+// import PingF from './components/functional/PingF';
 // import NewCard from './components/functional/Homework1';
 // import App from './components/class/App';
 // import AppF from './components/functional/AppF';
@@ -45,10 +48,16 @@ root.render(
       button ="READ MORE"
       /> */}
 
+{/*       
       <Ping/>
       <PingF/>
       <Countdown/>
-      <FromDate/>
+      <FromDate/> */}
+
+
+      {/* <Counter/> */}
+      <CounterF/>
+      <RandomColor/>
   </React.StrictMode>
 );
 
