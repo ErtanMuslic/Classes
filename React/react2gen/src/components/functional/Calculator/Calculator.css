@@ -1,8 +1,8 @@
 .cHead{
     width: 40%;
-    height: 65vh;
+    height: 80vh;
     margin: 10px;
-    border: 2px solid dimgray;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 12px;
     background-color: darkgray;
 }
@@ -10,14 +10,15 @@
 .num{
     margin: 5%;
     width: 90%;
-    height: 10vh;
-    border: 1px solid dimgray;
+    height: 15vh;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
     background-color: aqua;
     display: flex;
     justify-content: end;
     align-items: center;
-    font-size: 70px;
+    font-size: 65px;
+    margin-bottom: 10%;
 }
 
 .btn1{
@@ -39,16 +40,5 @@
     color: white;
     margin-top: 10px;
     border-radius: 10px;
-}
-
-.btn3{
-    width: 22%;
-    height: 50px;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    margin-top: 10px;
-    border-radius: 10px;
+    font-size: 20px;
 }
