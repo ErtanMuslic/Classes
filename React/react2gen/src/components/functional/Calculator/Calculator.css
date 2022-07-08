@@ -1,0 +1,54 @@
+.cHead{
+    width: 40%;
+    height: 65vh;
+    margin: 10px;
+    border: 2px solid dimgray;
+    border-radius: 12px;
+    background-color: darkgray;
+}
+
+.num{
+    margin: 5%;
+    width: 90%;
+    height: 10vh;
+    border: 1px solid dimgray;
+    border-radius: 10px;
+    background-color: aqua;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 70px;
+}
+
+.btn1{
+    margin: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.btn2{
+    width: 22%;
+    height: 50px;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.btn3{
+    width: 22%;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+}

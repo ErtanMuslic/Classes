@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Calculator from './components/functional/Calculator/Calculator';
 // import Countdown from './components/class/Countdown';
 // import Counter from './components/class/Counter';
-import CounterF from './components/functional/CounterF';
-import RandomColor from './components/functional/RandomColor';
+// import CounterF from './components/functional/CounterF';
+// import RandomColor from './components/functional/RandomColor';
 // import FromDate from './components/class/fromdate';
 // import Ping from './components/class/Ping';
 // import PingF from './components/functional/PingF';
@@ -48,16 +49,23 @@ root.render(
       button ="READ MORE"
       /> */}
 
-{/*       
+{/*    CLASS 2:
       <Ping/>
       <PingF/>
       <Countdown/>
       <FromDate/> */}
 
-
-      {/* <Counter/> */}
+      
+      { /*
+      CLASS 3:
+       <Counter/> 
       <CounterF/>
-      <RandomColor/>
+      <RandomColor/> */}
+
+
+      {/* HOMEWORK 2(CALCULATOR): */}
+
+      <Calculator/>
   </React.StrictMode>
 );
 

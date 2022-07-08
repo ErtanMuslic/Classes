@@ -15,9 +15,9 @@ const RandomColor = () =>{
         setSize(Math.floor(Math.random()*500));
     }
 
-    function getSize() {
-        setSize(Math.floor(Math.random()*500));
-    }
+    // function getSize() {
+    //     setSize(Math.floor(Math.random()*500));
+    // }
 
     useEffect(() =>{
         setInterval(getColor,100);
