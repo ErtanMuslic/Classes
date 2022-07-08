@@ -23,6 +23,8 @@ root.render(
 
     CLASS 1:
 
+
+
     <App name={{name:"Ertan"}}>
       <p>I am a Child</p>
       </App>
@@ -37,7 +39,13 @@ root.render(
       </div>
       */}
 
-      {/* HOMEWORK :
+
+
+      {/* 
+      
+      HOMEWORK :
+
+
       <NewCard url="https://cdn-icons-png.flaticon.com/512/81/81609.png" 
       title ="TWITTER" 
       text="
@@ -49,7 +57,13 @@ root.render(
       button ="READ MORE"
       /> */}
 
-{/*    CLASS 2:
+{/*    
+
+
+      CLASS 2:
+
+
+
       <Ping/>
       <PingF/>
       <Countdown/>
@@ -58,6 +72,8 @@ root.render(
       
       { /*
       CLASS 3:
+
+      
        <Counter/> 
       <CounterF/>
       <RandomColor/> */}
