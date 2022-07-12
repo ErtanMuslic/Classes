@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Calculator from './components/functional/Calculator/Calculator';
+import Badge from './components/functional/Badge/Badge';
+// import Calculator from './components/functional/Calculator/Calculator';
+import Conditional from './components/functional/Conditional';
 // import Countdown from './components/class/Countdown';
 // import Counter from './components/class/Counter';
 // import CounterF from './components/functional/CounterF';
@@ -79,9 +81,21 @@ root.render(
       <RandomColor/> */}
 
 
-      {/* HOMEWORK 2(CALCULATOR): */}
-
+      {/* HOMEWORK 2(CALCULATOR): 
       <Calculator/>
+      */}
+
+      
+      <Conditional text ='Ovo je prvi primer kartice' 
+      type="info" 
+      subtitle="Neki subtitle za nasu karticu"
+      extraText="Ovo je neki text"
+      extraIcon ="ovo je neka ikonica"
+      />
+      <Conditional text ='Ovo je prvi primer kartice' type="danger"/>
+      <Conditional text ='Ovo je prvi primer kartice' type ="warning"/>
+      <Badge type="1"/>
+      <Badge type="2"/>
   </React.StrictMode>
 );
 
