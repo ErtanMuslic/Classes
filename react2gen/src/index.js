@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import Badge from './components/functional/Badge/Badge';
 // import Calculator from './components/functional/Calculator/Calculator';
 import Conditional from './components/functional/Conditional';
+import SimpleForm from './components/functional/Forms';
+import Quotes from './components/functional/Quotes';
+import TextInput from './components/functional/TextInputs';
+
 // import Countdown from './components/class/Countdown';
 // import Counter from './components/class/Counter';
 // import CounterF from './components/functional/CounterF';
@@ -86,7 +90,7 @@ root.render(
       */}
 
       
-      <Conditional text ='Ovo je prvi primer kartice' 
+      {/* <Conditional text ='Ovo je prvi primer kartice' 
       type="info" 
       subtitle="Neki subtitle za nasu karticu"
       extraText="Ovo je neki text"
@@ -95,7 +99,15 @@ root.render(
       <Conditional text ='Ovo je prvi primer kartice' type="danger"/>
       <Conditional text ='Ovo je prvi primer kartice' type ="warning"/>
       <Badge type="1"/>
-      <Badge type="2"/>
+      <Badge type="2"/> */}
+
+      <TextInput/>
+
+      <Quotes/>
+
+
+      <SimpleForm/>
+
   </React.StrictMode>
 );
 
