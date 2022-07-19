@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import style from "./textInput.module.css";
+import style from "./textinput.module.css";
 
 const TextInput = (props) => {
   const { defaultValue, label, onChange } = props;

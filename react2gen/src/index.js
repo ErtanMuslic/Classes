@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Badge from './components/functional/Badge/Badge';
+// import Badge from './components/functional/Badge/Badge';
 // import Calculator from './components/functional/Calculator/Calculator';
-import Conditional from './components/functional/Conditional';
+// import Conditional from './components/functional/Conditional';
 import SimpleForm from './components/functional/Forms';
 import Quotes from './components/functional/Quotes';
 import TextInput from './components/functional/TextInputs';
