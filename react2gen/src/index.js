@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Composition from './components/functional/Composition';
 // import Badge from './components/functional/Badge/Badge';
 // import Calculator from './components/functional/Calculator/Calculator';
 // import Conditional from './components/functional/Conditional';
 import SimpleForm from './components/functional/Forms';
-import Quotes from './components/functional/Quotes';
-import TextInput from './components/functional/TextInputs';
+import Button from './components/functional/MainButton';
+// import Quotes from './components/functional/Quotes';
+// import TextInput from './components/functional/TextInputs';
 
 // import Countdown from './components/class/Countdown';
 // import Counter from './components/class/Counter';
@@ -101,12 +103,22 @@ root.render(
       <Badge type="1"/>
       <Badge type="2"/> */}
 
-      <TextInput/>
+      {/* <TextInput/>
 
-      <Quotes/>
-
-
+      <Quotes/> 
       <SimpleForm/>
+    */}
+
+{/*     
+    <Composition left={<SimpleForm/>}>
+      <p>text</p>
+    </Composition> */}
+
+    <Button color="green" radius="xs" size="xs"/>
+    <Button color="red" radius="sm" size="sm"/>
+    <Button color="white" radius="md" size="md"/>
+    <Button radius="lg" size="lg"/>
+    <Button text="CLICK" color="white" radius="xl" size="xl"/>
 
   </React.StrictMode>
 );
