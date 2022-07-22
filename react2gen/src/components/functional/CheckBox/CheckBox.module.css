@@ -1,0 +1,74 @@
+.main{
+    background-color: black;
+    color: white;
+}
+
+.normal{
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+.grey{
+    background-color: grey;
+    color: white;
+}
+.green{
+    background-color: green;
+    color: white;
+}
+.white{
+    background-color: white;
+    color: black;
+}
+
+.red{
+    color: red;
+}
+
+.radiusxs{
+    border-radius: 2px;
+}
+
+.radiussm{
+    border-radius: 6px;
+}
+
+.radiusmd{
+    border-radius: 8px;
+}
+
+.radiuslg{
+    border-radius: 10px;
+}
+
+.radiusxl{
+    border-radius: 12px;
+}
+
+
+
+.sizexs{
+    font-size: 36px;
+    padding: 20px;
+}
+
+.sizesm{
+    font-size: 36px;
+    padding: 20px;
+}
+
+.sizemd{
+    font-size: 36px;
+    padding: 20px;
+}
+
+.sizelg{
+    font-size: 36px;
+    padding: 20px;
+}
+
+.sizexl{
+    font-size: 36px;
+    padding: 20px;
+}

@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Composition from './components/functional/Composition';
+import CheckBox from './components/functional/CheckBox';
+// import Composition from './components/functional/Composition';
 // import Badge from './components/functional/Badge/Badge';
 // import Calculator from './components/functional/Calculator/Calculator';
 // import Conditional from './components/functional/Conditional';
-import SimpleForm from './components/functional/Forms';
+// import SimpleForm from './components/functional/Forms';
 import Button from './components/functional/MainButton';
 // import Quotes from './components/functional/Quotes';
 // import TextInput from './components/functional/TextInputs';
@@ -119,6 +120,9 @@ root.render(
     <Button color="white" radius="md" size="md"/>
     <Button radius="lg" size="lg"/>
     <Button text="CLICK" color="white" radius="xl" size="xl"/>
+
+
+    <CheckBox  text="some text" color="red" size="xl"/>
 
   </React.StrictMode>
 );
