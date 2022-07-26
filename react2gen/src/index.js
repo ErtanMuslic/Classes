@@ -7,8 +7,9 @@ import ReactDOM from 'react-dom/client';
 // import Conditional from './components/functional/Conditional';
 // import SimpleForm from './components/functional/Forms';
 // import Button from './components/functional/MainButton';
-import Tab from './components/functional/Tab';
-import TabsExample from './components/functional/TabsExample';
+// import Tab from './components/functional/Tab';
+// import TabsExample from './components/functional/TabsExample';
+import Website from './components/functional/Website';
 // import Quotes from './components/functional/Quotes';
 // import TextInput from './components/functional/TextInputs';
 
@@ -126,7 +127,10 @@ root.render(
 
     <CheckBox  text="some text" color="red" size="xl"/> */}
 
-    <Tab onChange={(index) => console.log(index)}/>
+    {/* <Tab onChange={(index) => console.log(index)}/> */}
+
+
+    <Website/>
   </React.StrictMode>
 );
 

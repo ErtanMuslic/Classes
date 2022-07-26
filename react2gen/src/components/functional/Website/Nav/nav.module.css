@@ -1,0 +1,11 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+}
+.nav2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10%;
+}
