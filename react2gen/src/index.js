@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom/client';
+import Countdown from './components/functional/Countdown';
+import Fragments from './components/functional/Fragments';
 // import CheckBox from './components/functional/CheckBox';
 // import Composition from './components/functional/Composition';
 // import Badge from './components/functional/Badge/Badge';
@@ -9,7 +11,7 @@ import ReactDOM from 'react-dom/client';
 // import Button from './components/functional/MainButton';
 // import Tab from './components/functional/Tab';
 // import TabsExample from './components/functional/TabsExample';
-import Website from './components/functional/Website';
+// import Website from './components/functional/Website';
 // import Quotes from './components/functional/Quotes';
 // import TextInput from './components/functional/TextInputs';
 
@@ -130,7 +132,10 @@ root.render(
     {/* <Tab onChange={(index) => console.log(index)}/> */}
 
 
-    <Website/>
+    {/* <Website/>
+    <Fragments/>*/}
+    <Countdown/>
+
   </React.StrictMode>
 );
 
