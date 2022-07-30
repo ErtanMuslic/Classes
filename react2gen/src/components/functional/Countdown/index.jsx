@@ -3,7 +3,6 @@ import { useState } from "react";
 import { useEffect } from "react";
 
 const Countdown = (props) => {
-  const { toDate, fromDate } = props;
   const [date, setDate] = useState(new Date());
 
   const duration = intervalToDuration({

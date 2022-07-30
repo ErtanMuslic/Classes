@@ -1,7 +1,8 @@
-import React, { Fragment } from 'react';
+import React/*, { Fragment }*/ from 'react';
 import ReactDOM from 'react-dom/client';
-import Countdown from './components/functional/Countdown';
-import Fragments from './components/functional/Fragments';
+// import Countdown from './components/functional/Countdown';
+// import Fragments from './components/functional/Fragments';
+import Quote from './components/functional/Quote';
 // import CheckBox from './components/functional/CheckBox';
 // import Composition from './components/functional/Composition';
 // import Badge from './components/functional/Badge/Badge';
@@ -133,8 +134,10 @@ root.render(
 
 
     {/* <Website/>
-    <Fragments/>*/}
-    <Countdown/>
+    <Fragments/>
+    <Countdown/>*/}
+
+    <Quote/>
 
   </React.StrictMode>
 );
