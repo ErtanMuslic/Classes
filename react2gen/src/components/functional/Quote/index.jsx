@@ -4,7 +4,7 @@ import api from "../../../api/api.js";
 
 const Quote = () => {
     const [quote,setQuote] = useState({});
-    const [counter,setCounter] = useState(0);
+    // const [counter,setCounter] = useState(0);
     const [tag,setTag] = useState("famous-quotes")
     // useEffect(() => {
         // api.get('/random').then((result) =>{

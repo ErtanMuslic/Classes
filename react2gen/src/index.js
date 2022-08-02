@@ -1,8 +1,10 @@
 import React/*, { Fragment }*/ from 'react';
 import ReactDOM from 'react-dom/client';
+import GetQuotes from './components/functional/GetQuotes/GetQuotes';
+import QuoteCard from './components/functional/GetQuotes/QuoteCard.';
 // import Countdown from './components/functional/Countdown';
 // import Fragments from './components/functional/Fragments';
-import Quote from './components/functional/Quote';
+// import Quote from './components/functional/Quote';
 // import CheckBox from './components/functional/CheckBox';
 // import Composition from './components/functional/Composition';
 // import Badge from './components/functional/Badge/Badge';
@@ -135,9 +137,11 @@ root.render(
 
     {/* <Website/>
     <Fragments/>
-    <Countdown/>*/}
+    <Countdown/>
 
-    <Quote/>
+    <Quote/>*/}
+
+    <GetQuotes/>
 
   </React.StrictMode>
 );
