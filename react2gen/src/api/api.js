@@ -4,4 +4,8 @@ const api = axios.create({
     baseURL:'https://api.quotable.io/'
 })
 
-export default api;
+const apicat = axios.create({
+    baseURL: "https://api.thecatapi.com/",
+  });
+
+export  {api,apicat};
