@@ -1,8 +1,9 @@
 import React/*, { Fragment }*/ from 'react';
 import ReactDOM from 'react-dom/client';
-import GetQuotes from './components/functional/GetQuotes/GetQuotes';
-import QuoteCard from './components/functional/GetQuotes/QuoteCard.';
+// import GetQuotes from './components/functional/GetQuotes/GetQuotes';
+// import QuoteCard from './components/functional/GetQuotes/QuoteCard.';
 import RandomCat from './components/functional/RandomCat/RandomCat';
+import RandomDog from './components/functional/RandomDog/RandomDog';
 // import Countdown from './components/functional/Countdown';
 // import Fragments from './components/functional/Fragments';
 // import Quote from './components/functional/Quote';
@@ -146,6 +147,7 @@ root.render(
   */}
 
   <RandomCat/>
+  <RandomDog/>
 
   </React.StrictMode>
 );

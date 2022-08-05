@@ -22,8 +22,20 @@ const RandomCat = () => {
 
   return <div>
     <div style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
-        <button onClick={() => fetchRandomCat()} style={{width:"100px",height:"50px"}}>Get pictureof a Random Cat</button>
-        <img src={randomCat.url} alt="" srcset=""  style={{width:"500px",height:"500px"}}/>
+        <button onClick={() => fetchRandomCat()} style={{
+            marginBottom:"50px",
+            width:"100px",
+            height:"50px",
+            borderRadius:"8px",
+            borderColor:"grey",
+            color:"white",
+            background:"black"}}>Get pictureof a Random Cat</button>
+        <img src={randomCat.url} alt="" srcSet=""  style={{
+          width:"500px",
+          height:"500px",
+          borderRadius:"8px",
+          border:"2px solid grey",
+          }}/>
     </div>
     </div>;
 };

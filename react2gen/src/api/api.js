@@ -8,4 +8,11 @@ const apicat = axios.create({
     baseURL: "https://api.thecatapi.com/",
   });
 
-export  {api,apicat};
+  const apidog = axios.create({
+    baseURL:"https://dog.ceo/api/",
+  })
+
+
+
+
+export  {api,apicat,apidog};
