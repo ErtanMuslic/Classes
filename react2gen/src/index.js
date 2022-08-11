@@ -1,9 +1,11 @@
 import React/*, { Fragment }*/ from 'react';
 import ReactDOM from 'react-dom/client';
+import Memorize from './components/functional/Memorize';
+import Ref from './components/functional/Ref';
 // import GetQuotes from './components/functional/GetQuotes/GetQuotes';
 // import QuoteCard from './components/functional/GetQuotes/QuoteCard.';
-import RandomCat from './components/functional/RandomCat/RandomCat';
-import RandomDog from './components/functional/RandomDog/RandomDog';
+// import RandomCat from './components/functional/RandomCat/RandomCat';
+// import RandomDog from './components/functional/RandomDog/RandomDog';
 // import Countdown from './components/functional/Countdown';
 // import Fragments from './components/functional/Fragments';
 // import Quote from './components/functional/Quote';
@@ -36,120 +38,130 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    {/*
+   <React.StrictMode>
 
 
-    CLASS 1:
+    {/* // CLASS 1:
 
 
 
-    <App name={{name:"Ertan"}}>
-      <p>I am a Child</p>
-      </App>
-      <AppF name="Eki">
-        <p>I am child of fictional component</p>
-      </AppF> 
-      <div style={{display:"flex",flexWrap:"wrap"}}>
+    // <App name={{name:"Ertan"}}>
+    //   <p>I am a Child</p>
+    //   </App>
+    //   <AppF name="Eki">
+    //     <p>I am child of fictional component</p>
+    //   </AppF> 
+    //   <div style={{display:"flex",flexWrap:"wrap"}}>
         
-      <Card title="Ertan Muslic" job="Best Pyton Coder" url='https://www.w3schools.com/howto/img_avatar.png'/>
-      <Card title="Ertan Muslic" job="Best Pyton Coder" url='https://www.w3schools.com/howto/img_avatar.png'/>
-      <Card title="Ertan Muslic" job="Best Pyton Coder" url='https://www.w3schools.com/howto/img_avatar.png'/>
-      </div>
-      */}
+    //   <Card title="Ertan Muslic" job="Best Pyton Coder" url='https://www.w3schools.com/howto/img_avatar.png'/>
+    //   <Card title="Ertan Muslic" job="Best Pyton Coder" url='https://www.w3schools.com/howto/img_avatar.png'/>
+    //   <Card title="Ertan Muslic" job="Best Pyton Coder" url='https://www.w3schools.com/howto/img_avatar.png'/>
+    //   </div>
+    //    */}
 
 
 
-      {/* 
+    
       
-      HOMEWORK :
+       {/* HOMEWORK :
 
 
-      <NewCard url="https://cdn-icons-png.flaticon.com/512/81/81609.png" 
-      title ="TWITTER" 
-      text="
-      Lorem ipsum dolor sit amet
-      consectetur adipisicing elit.
-      Expedita ullam aliquid non
-      eligendi nemo est neque
-      reiciendis error?"
-      button ="READ MORE"
-      /> */}
-
-{/*    
-
-
-      CLASS 2:
+//       <NewCard url="https://cdn-icons-png.flaticon.com/512/81/81609.png" 
+//       title ="TWITTER" 
+//       text="
+//       Lorem ipsum dolor sit amet
+//       consectetur adipisicing elit.
+//       Expedita ullam aliquid non
+//       eligendi nemo est neque
+//       reiciendis error?"
+//       button ="READ MORE"
+//       />  */}
+   
+{/* 
+//       CLASS 2:
 
 
 
-      <Ping/>
-      <PingF/>
-      <Countdown/>
-      <FromDate/> */}
+//       <Ping/>
+//       <PingF/>
+//       <Countdown/>
+//       <FromDate/> */}
 
-      
-      { /*
-      CLASS 3:
+{/*       
+//       
+//       CLASS 3:
 
       
-       <Counter/> 
-      <CounterF/>
-      <RandomColor/> */}
+//        <Counter/> 
+//       <CounterF/>
+//       <RandomColor/> 
 
 
-      {/* HOMEWORK 2(CALCULATOR): 
-      <Calculator/>
-      */}
+//        HOMEWORK 2(CALCULATOR): 
+//       <Calculator/>
+//       
 
       
-      {/* <Conditional text ='Ovo je prvi primer kartice' 
-      type="info" 
-      subtitle="Neki subtitle za nasu karticu"
-      extraText="Ovo je neki text"
-      extraIcon ="ovo je neka ikonica"
-      />
-      <Conditional text ='Ovo je prvi primer kartice' type="danger"/>
-      <Conditional text ='Ovo je prvi primer kartice' type ="warning"/>
-      <Badge type="1"/>
-      <Badge type="2"/> */}
+//        <Conditional text ='Ovo je prvi primer kartice'  
+//       type="info" 
+//       subtitle="Neki subtitle za nasu karticu"
+//       extraText="Ovo je neki text"
+//       extraIcon ="ovo je neka ikonica"
+//       />
+//       <Conditional text ='Ovo je prvi primer kartice' type="danger"/>
+//       <Conditional text ='Ovo je prvi primer kartice' type ="warning"/>
+//       <Badge type="1"/>
+//       <Badge type="2"/> 
 
-      {/* <TextInput/>
+//        <TextInput/>
 
-      <Quotes/> 
-      <SimpleForm/>
-    */}
+//       <Quotes/> 
+//       <SimpleForm/>
+//     
 
-{/*     
-    <Composition left={<SimpleForm/>}>
-      <p>text</p>
-    </Composition> */}
+//     
+//     <Composition left={<SimpleForm/>}>
+//       <p>text</p>
+//     </Composition> 
 
-    {/* <Button color="green" radius="xs" size="xs"/>
-    <Button color="red" radius="sm" size="sm"/>
-    <Button color="white" radius="md" size="md"/>
-    <Button radius="lg" size="lg"/>
-    <Button text="CLICK" color="white" radius="xl" size="xl"/>
-
-
-    <CheckBox  text="some text" color="red" size="xl"/> */}
-
-    {/* <Tab onChange={(index) => console.log(index)}/> */}
+//     <Button color="green" radius="xs" size="xs"/>
+//     <Button color="red" radius="sm" size="sm"/>
+//     <Button color="white" radius="md" size="md"/>
+//     <Button radius="lg" size="lg"/>
+//     <Button text="CLICK" color="white" radius="xl" size="xl"/>
 
 
-    {/* <Website/>
-    <Fragments/>
-    <Countdown/>
+//     <CheckBox  text="some text" color="red" size="xl"/> 
 
-    <Quote/>
+//     <Tab onChange={(index) => console.log(index)}/> 
 
-    <GetQuotes/>
-  */}
 
-  <RandomCat/>
-  <RandomDog/>
+//      <Website/>
+//     <Fragments/>
+//     <Countdown/>
 
-  </React.StrictMode>
+//     <Quote/>
+
+//     <GetQuotes/>
+//   
+//  
+//   <RandomCat/>
+//   <RandomDog/>  */}
+
+ {/* <div>
+    <SimpleContext>
+      <ContextConsumer />
+    </SimpleContext>
+</div>  */}
+
+  <div>
+    {/* <Ref/> */}
+    <Memorize/>
+  </div>
+
+
+ </React.StrictMode>
+
 );
 
 // If you want to start measuring performance in your app, pass a function
