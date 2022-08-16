@@ -1,7 +1,12 @@
 import React/*, { Fragment }*/ from 'react';
-import ReactDOM from 'react-dom/client';
 import Memorize from './components/functional/Memorize';
 import Ref from './components/functional/Ref';
+import ReactDOM from "react-dom/client";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 // import GetQuotes from './components/functional/GetQuotes/GetQuotes';
 // import QuoteCard from './components/functional/GetQuotes/QuoteCard.';
 // import RandomCat from './components/functional/RandomCat/RandomCat';
@@ -35,6 +40,11 @@ import Ref from './components/functional/Ref';
 // import Card from './components/functional/card';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import Team from './components/functional/RouterPage/Team';
+import Contact from './components/functional/RouterPage/Contact';
+import About from './components/functional/RouterPage/About';
+import Home from './components/functional/RouterPage/Home';
+import Page404 from './components/functional/RouterPage/Page404';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -154,11 +164,21 @@ root.render(
     </SimpleContext>
 </div>  */}
 
-  <div>
-    {/* <Ref/> */}
+  {/* <div>
+    <Ref/>
     <Memorize/>
+  </div> */}
+  <div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/team" element={<Team/>}/>
+      <Route path="/contacts" element={<Contact/>}/>
+      <Route path="/about" element={<About/>}/>
+      <Route path="*" element={<Page404/>}/>
+    </Routes>
+    </BrowserRouter>
   </div>
-
 
  </React.StrictMode>
 

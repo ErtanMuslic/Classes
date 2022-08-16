@@ -1,0 +1,11 @@
+import {Link} from "react-router-dom"
+import style from "./nav.moduel.css";
+const Nav =() =>{
+    return <div className={style.nav}>
+        <Link className={style.navItem} to="/">Home</Link>
+        <Link className={style.navItem} to="/team">Team</Link>
+        <Link className={style.navItem} to="/contact">Contact</Link>
+        <Link className={style.navItem} to="/about">About</Link>
+    </div>
+}
+export default Nav;
