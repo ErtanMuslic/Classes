@@ -1,0 +1,16 @@
+.footer{
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid black;
+}
+
+.footerText{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.footerLinks{
+    margin-left: 20px;
+}

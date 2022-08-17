@@ -9,7 +9,7 @@ const RouterPage = (props) =>{
         <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/team" element={<Team/>}/>
-      <Route path="/contacts" element={<Contact/>}/>
+      <Route path="/contact" element={<Contact/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="*" element={<Page404/>} />
     </Routes>

@@ -1,10 +1,11 @@
+import Footer from "../Footer";
 import Nav from "../Nav";
 
 const Layout = (props) =>{
     return <>
     <Nav/>
     {props.children}
-    <p>Footer</p>
+    <Footer/>
     </>
 };
 export default Layout;

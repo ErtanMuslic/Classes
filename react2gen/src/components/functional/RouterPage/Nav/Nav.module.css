@@ -1,13 +1,20 @@
 .nav{
     height: 80px;
-    background-color: blue;
+    background-color: royalblue;
     display: flex;
     padding: 0px 50px;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid black;
 }
 
 .navItem{
+    color: white;
     text-decoration: none;
     margin: 10px 20px;
+}
+
+.navItem:hover{
+    color: black;
+    transition: color 0.8s;
 }
