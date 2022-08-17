@@ -1,6 +1,4 @@
 import React/*, { Fragment }*/ from 'react';
-import Memorize from './components/functional/Memorize';
-import Ref from './components/functional/Ref';
 import ReactDOM from "react-dom/client";
 import {
   BrowserRouter,
@@ -38,149 +36,139 @@ import {
 // import App from './components/class/App';
 // import AppF from './components/functional/AppF';
 // import Card from './components/functional/card';
+import RouterPage from './components/functional/RouterPage';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Team from './components/functional/RouterPage/Team';
-import Contact from './components/functional/RouterPage/Contact';
-import About from './components/functional/RouterPage/About';
-import Home from './components/functional/RouterPage/Home';
-import Page404 from './components/functional/RouterPage/Page404';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-   <React.StrictMode>
+  //  <React.StrictMode>
 
 
-    {/* // CLASS 1:
+//     {/* // CLASS 1:
 
 
 
-    // <App name={{name:"Ertan"}}>
-    //   <p>I am a Child</p>
-    //   </App>
-    //   <AppF name="Eki">
-    //     <p>I am child of fictional component</p>
-    //   </AppF> 
-    //   <div style={{display:"flex",flexWrap:"wrap"}}>
+//     // <App name={{name:"Ertan"}}>
+//     //   <p>I am a Child</p>
+//     //   </App>
+//     //   <AppF name="Eki">
+//     //     <p>I am child of fictional component</p>
+//     //   </AppF> 
+//     //   <div style={{display:"flex",flexWrap:"wrap"}}>
         
-    //   <Card title="Ertan Muslic" job="Best Pyton Coder" url='https://www.w3schools.com/howto/img_avatar.png'/>
-    //   <Card title="Ertan Muslic" job="Best Pyton Coder" url='https://www.w3schools.com/howto/img_avatar.png'/>
-    //   <Card title="Ertan Muslic" job="Best Pyton Coder" url='https://www.w3schools.com/howto/img_avatar.png'/>
-    //   </div>
-    //    */}
+//     //   <Card title="Ertan Muslic" job="Best Pyton Coder" url='https://www.w3schools.com/howto/img_avatar.png'/>
+//     //   <Card title="Ertan Muslic" job="Best Pyton Coder" url='https://www.w3schools.com/howto/img_avatar.png'/>
+//     //   <Card title="Ertan Muslic" job="Best Pyton Coder" url='https://www.w3schools.com/howto/img_avatar.png'/>
+//     //   </div>
+//     //    */}
 
 
 
     
       
-       {/* HOMEWORK :
+//        {/* HOMEWORK :
 
 
-//       <NewCard url="https://cdn-icons-png.flaticon.com/512/81/81609.png" 
-//       title ="TWITTER" 
-//       text="
-//       Lorem ipsum dolor sit amet
-//       consectetur adipisicing elit.
-//       Expedita ullam aliquid non
-//       eligendi nemo est neque
-//       reiciendis error?"
-//       button ="READ MORE"
-//       />  */}
+// //       <NewCard url="https://cdn-icons-png.flaticon.com/512/81/81609.png" 
+// //       title ="TWITTER" 
+// //       text="
+// //       Lorem ipsum dolor sit amet
+// //       consectetur adipisicing elit.
+// //       Expedita ullam aliquid non
+// //       eligendi nemo est neque
+// //       reiciendis error?"
+// //       button ="READ MORE"
+// //       />  */}
    
-{/* 
-//       CLASS 2:
+// {/* 
+// //       CLASS 2:
 
 
 
-//       <Ping/>
-//       <PingF/>
-//       <Countdown/>
-//       <FromDate/> */}
+// //       <Ping/>
+// //       <PingF/>
+// //       <Countdown/>
+// //       <FromDate/> */}
 
-{/*       
-//       
-//       CLASS 3:
-
-      
-//        <Counter/> 
-//       <CounterF/>
-//       <RandomColor/> 
-
-
-//        HOMEWORK 2(CALCULATOR): 
-//       <Calculator/>
-//       
+// {/*       
+// //       
+// //       CLASS 3:
 
       
-//        <Conditional text ='Ovo je prvi primer kartice'  
-//       type="info" 
-//       subtitle="Neki subtitle za nasu karticu"
-//       extraText="Ovo je neki text"
-//       extraIcon ="ovo je neka ikonica"
-//       />
-//       <Conditional text ='Ovo je prvi primer kartice' type="danger"/>
-//       <Conditional text ='Ovo je prvi primer kartice' type ="warning"/>
-//       <Badge type="1"/>
-//       <Badge type="2"/> 
-
-//        <TextInput/>
-
-//       <Quotes/> 
-//       <SimpleForm/>
-//     
-
-//     
-//     <Composition left={<SimpleForm/>}>
-//       <p>text</p>
-//     </Composition> 
-
-//     <Button color="green" radius="xs" size="xs"/>
-//     <Button color="red" radius="sm" size="sm"/>
-//     <Button color="white" radius="md" size="md"/>
-//     <Button radius="lg" size="lg"/>
-//     <Button text="CLICK" color="white" radius="xl" size="xl"/>
+// //        <Counter/> 
+// //       <CounterF/>
+// //       <RandomColor/> 
 
 
-//     <CheckBox  text="some text" color="red" size="xl"/> 
+// //        HOMEWORK 2(CALCULATOR): 
+// //       <Calculator/>
+// //       
 
-//     <Tab onChange={(index) => console.log(index)}/> 
+      
+// //        <Conditional text ='Ovo je prvi primer kartice'  
+// //       type="info" 
+// //       subtitle="Neki subtitle za nasu karticu"
+// //       extraText="Ovo je neki text"
+// //       extraIcon ="ovo je neka ikonica"
+// //       />
+// //       <Conditional text ='Ovo je prvi primer kartice' type="danger"/>
+// //       <Conditional text ='Ovo je prvi primer kartice' type ="warning"/>
+// //       <Badge type="1"/>
+// //       <Badge type="2"/> 
+
+// //        <TextInput/>
+
+// //       <Quotes/> 
+// //       <SimpleForm/>
+// //     
+
+// //     
+// //     <Composition left={<SimpleForm/>}>
+// //       <p>text</p>
+// //     </Composition> 
+
+// //     <Button color="green" radius="xs" size="xs"/>
+// //     <Button color="red" radius="sm" size="sm"/>
+// //     <Button color="white" radius="md" size="md"/>
+// //     <Button radius="lg" size="lg"/>
+// //     <Button text="CLICK" color="white" radius="xl" size="xl"/>
 
 
-//      <Website/>
-//     <Fragments/>
-//     <Countdown/>
+// //     <CheckBox  text="some text" color="red" size="xl"/> 
 
-//     <Quote/>
+// //     <Tab onChange={(index) => console.log(index)}/> 
 
-//     <GetQuotes/>
-//   
-//  
-//   <RandomCat/>
-//   <RandomDog/>  */}
 
- {/* <div>
-    <SimpleContext>
-      <ContextConsumer />
-    </SimpleContext>
-</div>  */}
+// //      <Website/>
+// //     <Fragments/>
+// //     <Countdown/>
 
-  {/* <div>
-    <Ref/>
-    <Memorize/>
-  </div> */}
+// //     <Quote/>
+
+// //     <GetQuotes/>
+// //   
+// //  
+// //   <RandomCat/>
+// //   <RandomDog/>  */}
+
+//  {/* <div>
+//     <SimpleContext>
+//       <ContextConsumer />
+//     </SimpleContext>
+// </div>  */}
+
+//   {/* <div>
+//     <Ref/>
+//     <Memorize/>
+//   </div> */}
   <div>
-    <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home/>}/>
-      <Route path="/team" element={<Team/>}/>
-      <Route path="/contacts" element={<Contact/>}/>
-      <Route path="/about" element={<About/>}/>
-      <Route path="*" element={<Page404/>}/>
-    </Routes>
+    <BrowserRouter>    
+      <RouterPage/>
     </BrowserRouter>
   </div>
 
- </React.StrictMode>
+ //</React.StrictMode>
 
 );
 

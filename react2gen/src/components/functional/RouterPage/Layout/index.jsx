@@ -1,7 +1,8 @@
+import Nav from "../Nav";
 
 const Layout = (props) =>{
     return <>
-    <p>Nav</p>
+    <Nav/>
     {props.children}
     <p>Footer</p>
     </>

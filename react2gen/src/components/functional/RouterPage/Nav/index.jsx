@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom"
-import style from "./nav.moduel.css";
+import style from "./Nav.module.css";
 const Nav =() =>{
     return <div className={style.nav}>
         <Link className={style.navItem} to="/">Home</Link>

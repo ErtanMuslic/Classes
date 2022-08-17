@@ -1,11 +1,17 @@
 import {Routes,Route} from "react-router-dom";
-const RouterPage = () =>{
+import About from "./About";
+import Contact from "./Contact";
+import Home from "./Home";
+import Page404 from "./Page404";
+import Team from "./Team";
+const RouterPage = (props) =>{
     return <div>
         <Routes>
-      <Route path="/" element={<p>Home</p>}/>
-      <Route path="/team" element={<p>Team</p>}/>
-      <Route path="/contacts" element={<p>Contact</p>}/>
-      <Route path="/about" element={<p>About</p>}/>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/team" element={<Team/>}/>
+      <Route path="/contacts" element={<Contact/>}/>
+      <Route path="/about" element={<About/>}/>
+      <Route path="*" element={<Page404/>} />
     </Routes>
     </div>
 }
