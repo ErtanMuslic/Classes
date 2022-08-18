@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;  
+}
+
+.TeamItems{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:5%;
+}
+
+.Teams{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.TeamText{
+    align-items: center;
+    text-align: center;
+    margin:5px;
+    width: 200px;
+}
