@@ -1,0 +1,27 @@
+.ContactContainer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 70vh;
+}
+.ContactTextArea{
+    margin: 4%;
+}
+
+.ContactInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ContactLabel{
+    margin-bottom: 20%;
+}
+
+.Contactbutton{
+    border: 0px solid black;
+    background-color: #696966;
+    border-radius: 10px;
+    width: 50%;
+    height: 30px;
+}
