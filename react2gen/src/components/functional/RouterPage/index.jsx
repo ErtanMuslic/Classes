@@ -30,7 +30,7 @@ const RouterPage = (props) =>{
       </Route>
 
       <Route path="/invoices" element={<Invoices/>}>
-        <Route index element={<div>Invoices</div>}/>
+        <Route index element={<InvoiceList/>}/>
         <Route path=":invoiceId" element={<Invoice/>}/>
         <Route path="sent" element={<SentInvoices/>}/>
       </Route>
