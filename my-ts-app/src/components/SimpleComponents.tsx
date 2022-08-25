@@ -5,11 +5,11 @@ interface Props {
     children:React.ReactNode //any; //JSX.Element;
 }
 
-interface Props2 extends Props{
-    address:string;
-}
+// interface Props2 extends Props{
+//     address:string;
+// }
 
-type Props3<T = unknown> = T & {surname: string};
+// type Props3<T = unknown> = T & {surname: string};
 
 const SimpleComponents = (props:React.PropsWithChildren<Props>) => {
     const {name,age} = props;
